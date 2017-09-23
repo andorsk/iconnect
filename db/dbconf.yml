@@ -1,0 +1,8 @@
+test:
+  driver: postgres
+  open: user=andor dbname=iconnect sslmode=disable
+
+development:
+  driver: postgres
+  open: user=andor dbname=iconnect sslmode=disable
+
