@@ -1,0 +1,14 @@
+syntax='proto3';
+package location;
+
+message Location{
+  string name = 1;
+  string description = 2;
+  double longitude = 3;
+  double latitude = 4;
+  double zip = 5;
+  string city = 6;
+  string address = 7;
+  string address2 = 8;
+  string state = 9;
+}

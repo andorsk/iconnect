@@ -1,0 +1,13 @@
+syntax='proto3';
+package startup;
+
+import "location/location.proto";
+
+message Startup {
+  string name = 1;
+  string id = 2;
+  string email = 3;
+  string description = 4;
+  string shortdesc = 5;
+  location.Location location =6;
+}
